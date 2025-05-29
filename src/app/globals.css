@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  --red: red;
+  --red-test: red;
 }
 :root {
   --breakpoint-3xl: 1920px;
@@ -18,6 +18,9 @@
   }
 }
 
+.red-test {
+  color: var(--red-test);
+}
 html,
 body {
   max-width: 100vw;
