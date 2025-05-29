@@ -1,6 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --red: red;
+}
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --breakpoint-3xl: 1920px;
+  --menu-background-color: #4295d0;
+  --menu-color: #085f9d;
+  --klean-freak-yellow: #feff00;
+  --unlimted-freak-red: #c22c3b;
 }
 
 @media (prefers-color-scheme: dark) {
