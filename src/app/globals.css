@@ -1,14 +1,19 @@
 @import "tailwindcss";
 
-@theme {
-  --red-test: red;
-}
 :root {
-  --breakpoint-3xl: 1920px;
-  --menu-background-color: #4295d0;
+  --menu-background-color: #0d1e4b;
   --menu-color: #085f9d;
   --klean-freak-yellow: #feff00;
   --unlimted-freak-red: #c22c3b;
+}
+
+.menu-background-color {
+  background-color: var(--menu-background-color);
+  color: #fff;
+}
+
+.button-color {
+  background-color: var(--klean-freak-yellow);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,8 +23,8 @@
   }
 }
 
-.red-test {
-  color: var(--red-test);
+.menu-color {
+  background-color: var(--menu-color);
 }
 html,
 body {
