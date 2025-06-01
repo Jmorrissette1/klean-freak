@@ -1,0 +1,35 @@
+.mobileDock {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #0d1e4b;
+  display: none; /* Hidden by default */
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  z-index: 9999;
+  color: #fff;
+}
+
+.mobileDock button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mobileDock .centerButton {
+  font-size: 1.75rem;
+  transform: translateY(-10px);
+}
+
+/* Only show dock on small screens */
+@media (max-width: 768px) {
+  .mobileDock {
+    display: flex !important;
+  }
+}

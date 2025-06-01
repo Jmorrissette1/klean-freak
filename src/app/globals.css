@@ -51,6 +51,10 @@ a {
   text-decoration: none;
 }
 
+.main-content {
+  padding-bottom: 80px; /* match dock height */
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
