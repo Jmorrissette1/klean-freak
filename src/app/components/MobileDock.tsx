@@ -1,22 +1,29 @@
-import { Home, Star, ShoppingCart } from "lucide-react";
+import { Tag, Star, ShoppingCart } from "lucide-react";
 import Link from "next/link";
 import styles from "./MobileDock.module.css";
 
 export function MobileDock() {
   return (
     <div className={styles.mobileDock}>
-      <Link href="/packages.html">
-        <Home />
-        <span>Packages</span>
+      <Link href="/packages">
+        <button className={styles.mobileDockButton}>
+          <Tag />
+          <span>Packages</span>
+        </button>
       </Link>
 
-      <Link href="/buy-wash.html" className={styles.centerButton}>
-        <ShoppingCart />
+      <Link href="/klean-club" className={styles.centerButton}>
+        <button className={styles.buyWashButton}>
+          <ShoppingCart />
+          <span>Buy Wash</span>
+        </button>
       </Link>
 
-      <Link href="/promotions.html">
-        <Star />
-        <span>Promos</span>
+      <Link href="/promotions">
+        <button>
+          <Star />
+          <span>Promos</span>
+        </button>
       </Link>
     </div>
   );

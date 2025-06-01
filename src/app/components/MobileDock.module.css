@@ -12,10 +12,12 @@
   color: #fff;
 }
 
+.mobileDockButton {
+  justify-content: center;
+}
+
 .mobileDock button {
-  background: none;
   border: none;
-  color: #fff;
   font-size: 1.25rem;
   display: flex;
   flex-direction: column;
@@ -27,7 +29,15 @@
   transform: translateY(-10px);
 }
 
-/* Only show dock on small screens */
+.buyWashButton {
+  width: 100px;
+  height: 100px;
+  margin-top: -30px;
+  background: #feff00;
+  justify-content: center;
+  border-radius: 50%;
+  color: #000;
+}
 @media (max-width: 768px) {
   .mobileDock {
     display: flex !important;
