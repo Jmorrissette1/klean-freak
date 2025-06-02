@@ -47,6 +47,13 @@
   height: 50px;
   background-color: #feff00;
   color: #000;
+  cursor: pointer;
+}
+
+.navButton:hover {
+  background-color: #fff;
+  color: #000;
+  border: 3px solid #000;
 }
 .dropdownMenu {
   position: absolute;

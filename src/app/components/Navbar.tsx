@@ -40,7 +40,7 @@ export default function Navbar() {
         className={`${styles.navLinks} ${mobileMenuOpen ? styles.active : ""}`}
       >
         <li>
-          <Link href="/packages.html">Packages</Link>
+          <Link href="/packages">Packages</Link>
         </li>
 
         <li className={styles.dropdown}>
@@ -53,10 +53,10 @@ export default function Navbar() {
             }`}
           >
             <li>
-              <Link href="/kleanclub.html">Klean Club</Link>
+              <Link href="/klean-club">Klean Club</Link>
             </li>
             <li>
-              <Link href="/why-unlimited-page.html">Why Unlimited?</Link>
+              <Link href="/why-unlimited-page">Why Unlimited?</Link>
             </li>
           </ul>
         </li>
@@ -91,17 +91,19 @@ export default function Navbar() {
             }`}
           >
             <li>
-              <Link href="/Poulsbo-location.html">Poulsbo</Link>
+              <Link href="/Poulsbo">Poulsbo</Link>
             </li>
             <li>
-              <Link href="/Silverdale-location.html">Silverdale</Link>
+              <Link href="/Silverdale">Silverdale</Link>
             </li>
           </ul>
         </li>
         <li>
-          <span>Events</span>
+          <Link href="/events">Events</Link>
         </li>
-        <button className={styles.navButton}>Manage Your Account</button>
+        <Link href="/memberships">
+          <button className={styles.navButton}>Manage Your Account</button>
+        </Link>
       </ul>
     </nav>
   );
