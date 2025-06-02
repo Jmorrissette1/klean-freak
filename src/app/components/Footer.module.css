@@ -1,11 +1,26 @@
 .footerBody {
-  width: 100vw;
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
   height: 780px;
   background-image: url("/footer-bg.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
   background-color: #5a94cb;
+}
+
+.footerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerH1 {
+  margin-top: 2rem;
+  color: #fff;
+  font-size: 3rem;
 }
 
 @media (max-width: 768px) {
