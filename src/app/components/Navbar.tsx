@@ -25,6 +25,7 @@ export default function Navbar() {
           width={200}
           height={90}
           alt="Klean Freak logo"
+          className={styles.logo}
         ></Image>
       </Link>
 

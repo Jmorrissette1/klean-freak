@@ -89,6 +89,14 @@
     display: block;
   }
 
+  .logo {
+    width: 130px;
+  }
+
+  .nav {
+    padding: 15px;
+  }
+
   .dropdownMenu li {
     padding: 1.5rem 1rem;
     white-space: nowrap;
