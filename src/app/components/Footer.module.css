@@ -1,0 +1,15 @@
+.footerBody {
+  width: 100vw;
+  height: 780px;
+  background-image: url("/footer-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: #5a94cb;
+}
+
+@media (max-width: 768px) {
+  .footerBody {
+    background-image: url("/footer-bg-m.png");
+  }
+}

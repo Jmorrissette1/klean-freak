@@ -56,7 +56,7 @@ export default function Navbar() {
               <Link href="/klean-club">Klean Club</Link>
             </li>
             <li>
-              <Link href="/why-unlimited-page">Why Unlimited?</Link>
+              <Link href="/why-unlimited">Why Unlimited?</Link>
             </li>
           </ul>
         </li>
@@ -91,10 +91,10 @@ export default function Navbar() {
             }`}
           >
             <li>
-              <Link href="/Poulsbo">Poulsbo</Link>
+              <Link href="/locations/poulsbo">Poulsbo</Link>
             </li>
             <li>
-              <Link href="/Silverdale">Silverdale</Link>
+              <Link href="/locations/silverdale">Silverdale</Link>
             </li>
           </ul>
         </li>
