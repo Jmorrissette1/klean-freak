@@ -21,6 +21,8 @@
   margin-top: 2rem;
   color: #fff;
   font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 @media (max-width: 768px) {
