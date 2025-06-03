@@ -40,7 +40,9 @@ export default function Navbar() {
         className={`${styles.navLinks} ${mobileMenuOpen ? styles.active : ""}`}
       >
         <li>
-          <Link href="/packages">Packages</Link>
+          <Link href="/packages" onClick={() => setMobileMenuOpen(false)}>
+            Packages
+          </Link>
         </li>
 
         <li className={styles.dropdown}>
@@ -53,10 +55,17 @@ export default function Navbar() {
             }`}
           >
             <li>
-              <Link href="/klean-club">Klean Club</Link>
+              <Link href="/klean-club" onClick={() => setMobileMenuOpen(false)}>
+                Klean Club
+              </Link>
             </li>
             <li>
-              <Link href="/why-unlimited">Why Unlimited?</Link>
+              <Link
+                href="/why-unlimited"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Why Unlimited?
+              </Link>
             </li>
           </ul>
         </li>
@@ -68,7 +77,9 @@ export default function Navbar() {
             }`}
           >
             <li>
-              <Link href="/about">About Us</Link>
+              <Link href="/about" onClick={() => setMobileMenuOpen(false)}>
+                About Us
+              </Link>
             </li>
             <li>
               <a
@@ -91,17 +102,29 @@ export default function Navbar() {
             }`}
           >
             <li>
-              <Link href="/locations/poulsbo">Poulsbo</Link>
+              <Link
+                href="/locations/poulsbo"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Poulsbo
+              </Link>
             </li>
             <li>
-              <Link href="/locations/silverdale">Silverdale</Link>
+              <Link
+                href="/locations/silverdale"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Silverdale
+              </Link>
             </li>
           </ul>
         </li>
         <li>
-          <Link href="/events">Events</Link>
+          <Link href="/events" onClick={() => setMobileMenuOpen(false)}>
+            Events
+          </Link>
         </li>
-        <Link href="/memberships">
+        <Link href="/memberships" onClick={() => setMobileMenuOpen(false)}>
           <button className={styles.navButton}>Manage Your Account</button>
         </Link>
       </ul>
