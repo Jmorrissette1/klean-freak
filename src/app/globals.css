@@ -30,10 +30,12 @@
   align-items: center;
   flex-direction: column;
   background: #fff;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  margin-top: -5rem;
-  overflow: hidden;
+  marign-top: -5rem;
+}
+
+.rinsedFormContainer iframe {
+  border: none;
+  padding: 0;
 }
 
 @media (prefers-color-scheme: dark) {
