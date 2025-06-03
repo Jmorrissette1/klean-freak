@@ -29,4 +29,10 @@
   .footerBody {
     background-image: url("/footer-bg-m.png");
   }
+
+  .footerH1 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
 }
