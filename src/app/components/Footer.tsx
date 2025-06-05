@@ -1,4 +1,5 @@
 import styles from "./Footer.module.css";
+import Image from "next/image";
 const Footer = () => {
   return (
     <div className={styles.footerBody}>
@@ -15,7 +16,7 @@ const Footer = () => {
             <p>21205 Olhava Way NW</p>
             <h4>Hours</h4>
             <p>Open 24 Hours!</p>
-            <button>Directions & More</button>
+            <button className={styles.footerCardBtn}>Directions & More</button>
           </div>
           <div className={styles.footerLocationCard}>
             <h3>Silverdale</h3>
@@ -25,9 +26,13 @@ const Footer = () => {
             <p>9550 Ridgetop Blvd NW</p>
             <h4>Hours</h4>
             <p>Open 24 Hours!</p>
-            <button>Directions & More</button>
+            <button className={styles.footerCardBtn}>Directions & More</button>
           </div>
         </div>
+      </div>
+      <div className="centeredRow">
+        <Image src="/Facebook.png" alt="Facebook" width={50} height={50} />
+        <Image src="/Facebook.png" alt="Facebook" width={50} height={50} />
       </div>
     </div>
   );

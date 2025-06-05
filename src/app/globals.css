@@ -38,6 +38,13 @@
   padding: 0;
 }
 
+.centeredRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
