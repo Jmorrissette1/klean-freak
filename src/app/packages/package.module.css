@@ -1,0 +1,164 @@
+.packageBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.packageBoxBtn {
+  width: 200px;
+  height: 80px;
+  margin-bottom: 2rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  background-color: #000;
+}
+
+.packageBoxBtn:hover {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000;
+}
+
+.packageType {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 800;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.packageSection {
+  display: flex;
+  flex-direction: row;
+  align-content: start;
+}
+.packageCol {
+  width: 400px;
+  opacity: 0;
+  animation: fadeIn 2s ease-in forwards;
+}
+.packageH1 {
+  color: #fbeb62;
+  font-size: 2.7rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 2);
+}
+.packageCard {
+  margin-top: -4rem;
+  width: 500px;
+  opacity: 0;
+  animation: fadeInLeft 2s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+.packageCardHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6.5rem;
+  padding-top: 10px;
+  padding-bottom: 3px;
+  padding-right: 25px;
+  padding-left: 25px;
+  background-color: var(--unlimted-freak-red);
+}
+
+.superFreak {
+  background-color: #4295d0;
+}
+
+.kleanFreak {
+  background-color: #c1c1c1;
+}
+.packageCol {
+  padding: 45px;
+  max-width: 450px;
+}
+.verticalLine {
+  border-left: 2px solid #e8e8e8;
+  height: 100px;
+  margin: 2rem 20px;
+}
+.packageP {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.packageH3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.packageList {
+  display: flex;
+  flex-direction: row;
+}
+.packagePriceRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-bottom: 1px solid #e8e8e8;
+  border-left: 1px solid #e8e8e8;
+  border-right: 1px solid #e8e8e8;
+}
+.packageBtn {
+  width: 240px;
+  height: 50px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: var(--klean-freak-yellow);
+  border: none;
+}
+
+.packageBtn:hover {
+  background-color: #fff;
+  border: 2px solid #000;
+}
+.packagePrice {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.price {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: -0.5rem;
+}
+
+.priceSpan {
+  font-size: 1.5rem;
+}
+
+.priceType {
+  text-transform: uppercase;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

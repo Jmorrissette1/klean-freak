@@ -33,6 +33,13 @@
   marign-top: -5rem;
 }
 
+.pageH1 {
+  margin-top: 2rem;
+  color: #000;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
 .rinsedFormContainer iframe {
   border: none;
   padding: 0;
@@ -41,6 +48,13 @@
 .centeredRow {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.centeredColumn {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }

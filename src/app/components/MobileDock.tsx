@@ -15,7 +15,8 @@ export function MobileDock() {
       <Link href="/klean-club" className={styles.centerButton}>
         <button className={styles.buyWashButton}>
           <ShoppingCart />
-          <span>Buy Wash</span>
+          <span>Buy</span>
+          <span>Wash</span>
         </button>
       </Link>
 

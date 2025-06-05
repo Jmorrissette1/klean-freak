@@ -31,8 +31,8 @@ const Footer = () => {
         </div>
       </div>
       <div className="centeredRow">
-        <Image src="/Facebook.png" alt="Facebook" width={50} height={50} />
-        <Image src="/Facebook.png" alt="Facebook" width={50} height={50} />
+        <Image src="/Facebook.png" alt="Facebook" width={75} height={75} />
+        <Image src="/Instagram.png" alt="Facebook" width={75} height={75} />
       </div>
     </div>
   );

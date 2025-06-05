@@ -6,7 +6,7 @@
   background-image: url("/footer-bg.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-color: #5a94cb;
   box-sizing: border-box;
 }
