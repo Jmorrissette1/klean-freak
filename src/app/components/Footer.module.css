@@ -25,6 +25,15 @@
   font-weight: 700;
 }
 
+.footerCardSection {
+}
+.footerLocationCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 @media (max-width: 768px) {
   .footerBody {
     background-image: url("/footer-bg-m.png");

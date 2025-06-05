@@ -6,6 +6,28 @@ const Footer = () => {
         <h1 className={styles.footerH1}>
           <em>FIND YOUR NEAREST KLEAN FREAK</em>
         </h1>
+        <div className={styles.footerCardSection}>
+          <div className={styles.footerLocationCard}>
+            <h3>Poulsbo</h3>
+            <h4>Phone</h4>
+            <p>360-616-3270</p>
+            <h4>Address</h4>
+            <p>21205 Olhava Way NW</p>
+            <h4>Hours</h4>
+            <p>Open 24 Hours!</p>
+            <button>Directions & More</button>
+          </div>
+          <div className={styles.footerLocationCard}>
+            <h3>Silverdale</h3>
+            <h4>Phone</h4>
+            <p>360-360-616-3276</p>
+            <h4>Address</h4>
+            <p>9550 Ridgetop Blvd NW</p>
+            <h4>Hours</h4>
+            <p>Open 24 Hours!</p>
+            <button>Directions & More</button>
+          </div>
+        </div>
       </div>
     </div>
   );
