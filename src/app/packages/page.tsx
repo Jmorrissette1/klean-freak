@@ -56,6 +56,92 @@ const Packages = () => {
           </div>
         </div>
       </div>
+      <div className={styles.packageSection}>
+        <div className={styles.packageCard}>
+          <div className={`${styles.packageCardHeader}  ${styles.superFreak}`}>
+            <h1 className={styles.packageH1}>
+              <em>SUPER FREAK</em>
+            </h1>
+          </div>
+          <div className={styles.packagePriceRow}>
+            <div className={styles.packagePrice}>
+              <p className={styles.price}>
+                $13<span className={styles.priceSpan}>ea.</span>
+              </p>
+              <p className={styles.priceType}>Single Wash</p>
+            </div>
+            <div className={styles.verticalLine}></div>
+            <div className={styles.packagePrice}>
+              <p className={styles.price}>
+                $32<span className={styles.priceSpan}>/mo.</span>
+              </p>
+              <p className={styles.priceType}>Unlimited Wash</p>
+            </div>
+          </div>
+        </div>
+
+        <div className={styles.packageList}>
+          <div className={styles.packageCol}>
+            <p className={styles.packageH3}>Undercarriage Blast</p>
+            <p className={styles.packageP}>
+              Regular undercarriage cleaning helps remove dirt, salt, and grime
+              that can lead to rust and corrosion, particularly in areas that
+              are prone to moisture and road salt exposure during winter.
+            </p>
+            <p className={styles.packageH3}>Wheel Blast</p>
+            <p className={styles.packageH3}>2 Hot Presoaks</p>
+            <p className={styles.packageH3}>High Pressure Pass</p>
+            <p className={styles.packageH3}> Forced Air Dry</p>
+          </div>
+          <div className={styles.packageCol}>
+            <p className={styles.packageH3}>Clear Coat</p>
+            <p className={styles.packageH3}>High Pressure Rinse</p>
+            <button className={styles.packageBtn}>Learn More</button>
+          </div>
+        </div>
+      </div>
+
+      <div className={styles.packageSection}>
+        <div className={styles.packageCard}>
+          <div className={`${styles.packageCardHeader}  ${styles.kleanFreak}`}>
+            <h1 className={styles.packageH1}>
+              <em>KLEAN FREAK</em>
+            </h1>
+          </div>
+          <div className={styles.packagePriceRow}>
+            <div className={styles.packagePrice}>
+              <p className={styles.price}>
+                $10<span className={styles.priceSpan}>ea.</span>
+              </p>
+              <p className={styles.priceType}>Single Wash</p>
+            </div>
+            <div className={styles.verticalLine}></div>
+            <div className={styles.packagePrice}>
+              <p className={styles.price}>
+                $23<span className={styles.priceSpan}>/mo.</span>
+              </p>
+              <p className={styles.priceType}>Unlimited Wash</p>
+            </div>
+          </div>
+        </div>
+
+        <div className={styles.packageList}>
+          <div className={styles.packageCol}>
+            <p className={styles.packageH3}>Undercarriage Blast</p>
+            <p className={styles.packageP}>
+              Regular undercarriage cleaning helps remove dirt, salt, and grime
+              that can lead to rust and corrosion, particularly in areas that
+              are prone to moisture and road salt exposure during winter.
+            </p>
+            <p className={styles.packageH3}>Wheel Blast</p>
+            <p className={styles.packageH3}>2 Hot Presoaks</p>
+            <p className={styles.packageH3}>High Pressure Pass</p>
+          </div>
+          <div className={styles.packageCol}>
+            <button className={styles.packageBtn}>Learn More</button>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
