@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./package.module.css";
 const Packages = () => {
   return (
@@ -52,7 +53,9 @@ const Packages = () => {
               A special polymer is applied to your paint that adds extra shine
               while deflecting rain and grime.
             </p>
-            <button className={styles.packageBtn}>Learn More</button>
+            <Link href="/klean-club">
+              <button className={styles.packageBtn}>Sign Up</button>
+            </Link>
           </div>
         </div>
       </div>
@@ -96,7 +99,9 @@ const Packages = () => {
           <div className={styles.packageCol}>
             <p className={styles.packageH3}>Clear Coat</p>
             <p className={styles.packageH3}>High Pressure Rinse</p>
-            <button className={styles.packageBtn}>Learn More</button>
+            <Link href="/klean-club">
+              <button className={styles.packageBtn}>Sign Up</button>
+            </Link>
           </div>
         </div>
       </div>
@@ -138,9 +143,29 @@ const Packages = () => {
             <p className={styles.packageH3}>High Pressure Pass</p>
           </div>
           <div className={styles.packageCol}>
-            <button className={styles.packageBtn}>Learn More</button>
+            <Link href="/klean-club">
+              <button className={styles.packageBtn}>Sign Up</button>
+            </Link>
           </div>
         </div>
+      </div>
+      <div className={styles.becomeAMemberSection}>
+        <div className={styles.becomeMemberBox1}>
+          <div className={styles.becomeMemberH1}>
+            SIGN UP FOR UNLIMITED <br />
+            CAR WASHES
+          </div>
+          <div className={styles.becomeMemeberP}>
+            Your new favorite membership! Join our Unlimited Wash Club and
+            experience our Feel Good Klean for less!
+          </div>
+          <Link href="/klean-club">
+            <button className={`${styles.memeberBtn} ${styles.memeberBtnA}`}>
+              Sign Up
+            </button>
+          </Link>
+        </div>
+        <div className={styles.becomeMemberBox2}></div>
       </div>
     </div>
   );

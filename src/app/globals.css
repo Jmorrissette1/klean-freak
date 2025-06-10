@@ -104,16 +104,16 @@ a {
 
 .main-content {
   padding-top: 150px;
-  padding-bottom: 80px;
 }
 
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
+}
 
+@media (max-width: 768px) {
   .main-content {
     padding-top: 100px;
-    padding-bottom: 80px;
   }
 }
