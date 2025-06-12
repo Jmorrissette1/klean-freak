@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Prompt";
+  src: url("/fonts/prompt/prompt-700.woff2") format("woff2");
+  font-weight: 100, 200, 300, 400, 500, 600, 700, 800, 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --menu-background-color: #0d1e4b;
   --menu-color: #085f9d;
@@ -38,7 +46,7 @@
   color: #000;
   font-size: 3rem;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 900;
 }
 .rinsedFormContainer iframe {
   border: none;
@@ -79,7 +87,7 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Prompt", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
