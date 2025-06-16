@@ -9,7 +9,7 @@ const Footer = () => {
         </h1>
         <div className={styles.footerCardSection}>
           <div className={styles.footerLocationCard}>
-            <h3>Poulsbo</h3>
+            <h3 className={styles.footerH3}>Poulsbo</h3>
             <h4>Phone</h4>
             <p>360-616-3270</p>
             <h4>Address</h4>
