@@ -16,9 +16,6 @@ const KleanClub = () => {
               overflow: "hidden",
             }}
           ></iframe>
-          <div className="membership-link">
-            Dont have a Account? <a href="kleanclub.html">SIGN UP</a>
-          </div>
         </div>
       </section>
     </div>

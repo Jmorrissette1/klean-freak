@@ -138,12 +138,7 @@
     outline: none !important;
     box-shadow: none !important;
   }
-
-  .dropdown:hover .dropdownMenu {
-    display: none;
-    box-shadow: none;
-  }
-
+  
   .navButton {
     width: 21rem;
   }

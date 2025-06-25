@@ -1,12 +1,5 @@
 @import "tailwindcss";
 
-@font-face {
-  font-family: "Prompt";
-  src: url("/fonts/prompt/prompt-700.woff2") format("woff2");
-  font-weight: 100, 200, 300, 400, 500, 600, 700, 800, 900;
-  font-style: normal;
-  font-display: swap;
-}
 
 :root {
   --menu-background-color: #0d1e4b;
@@ -39,7 +32,6 @@
   align-items: center;
   flex-direction: column;
   background: #fff;
-  marign-top: -5rem;
 }
 
 .pageH1 {
@@ -48,6 +40,11 @@
   font-size: 3rem;
   text-transform: uppercase;
   font-weight: 900;
+}
+
+.pageH2{
+  font-weight: 800;
+  font-size: 2rem;
 }
 .rinsedFormContainer iframe {
   border: none;
@@ -66,6 +63,21 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.contentBox{
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1200px;
+  background: #fff;
+  margin-bottom: 5rem;
+  font-size: 22px;
+  padding: 45px;
+} 
+.textBlock{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -122,6 +134,10 @@ a {
 }
 
 @media (max-width: 768px) {
+  .pageH1 {
+    text-align: center;
+    margin-top: 0;
+  }
   .pageContent {
     width: 100%;
   }
@@ -138,4 +154,14 @@ a {
     flex-direction: column;
     background: #fff;
   }
+  .contentBox{
+    font-size:1rem;
+    margin-bottom: 0;
+    max-width: 400px;  
+    text-align: center;
+  }
+  .pageH2{
+  font-weight: 800;
+  font-size: 1.5rem;
+}
 }

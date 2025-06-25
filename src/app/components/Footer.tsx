@@ -1,5 +1,6 @@
 import styles from "./Footer.module.css";
 import Image from "next/image";
+import Link from "next/link";
 const Footer = () => {
   return (
     <div className={styles.footerBody}>
@@ -16,7 +17,7 @@ const Footer = () => {
             <p>21205 Olhava Way NW</p>
             <h4>Hours</h4>
             <p>Open 24 Hours!</p>
-            <button className={styles.footerCardBtn}>Directions & More</button>
+            <Link href="/locations/poulsbo"><button className={styles.footerCardBtn}>Directions & More</button></Link>
           </div>
           <div className={styles.footerLocationCard}>
             <h3>Silverdale</h3>
@@ -26,7 +27,7 @@ const Footer = () => {
             <p>9550 Ridgetop Blvd NW</p>
             <h4>Hours</h4>
             <p>Open 24 Hours!</p>
-            <button className={styles.footerCardBtn}>Directions & More</button>
+            <Link href="/locations/silverdale"><button className={styles.footerCardBtn}>Directions & More</button></Link>
           </div>
         </div>
       </div>

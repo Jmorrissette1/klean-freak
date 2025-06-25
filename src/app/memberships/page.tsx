@@ -1,3 +1,4 @@
+import Link from "next/link";
 const Memeberships = () => {
   return (
     <div>
@@ -19,7 +20,7 @@ const Memeberships = () => {
           ></iframe>
         </div>
         <div className="membership-link">
-          Dont have a Account? <a href="kleanclub.html">SIGN UP</a>
+          Dont have a Account? <Link href="/memberships">SIGN UP</Link>
         </div>
       </section>
       <script

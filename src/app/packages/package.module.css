@@ -115,6 +115,8 @@
   font-weight: bold;
   background-color: var(--klean-freak-yellow);
   border: none;
+  margin-bottom: 5rem;
+  margin-top: 1rem;
 }
 
 .packageBtn:hover {
@@ -226,6 +228,7 @@
     width: 100%;
     opacity: 0;
     animation: fadeInLeft 2s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+    margin-bottom: 2rem;
   }
   .packageList {
     flex-direction: column;

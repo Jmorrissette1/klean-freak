@@ -1,9 +1,18 @@
 import type { Metadata } from "next";
+import { Prompt } from "next/font/google";
 import { Geist, Geist_Mono } from "next/font/google";
 import Navbar from "./components/Navbar";
 import { MobileDock } from "./components/MobileDock";
 import Footer from "./components/Footer";
 import "./globals.css";
+
+const prompt = Prompt({
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  style: ["normal", "italic"],
+  variable: "--font-prompt", // optional for custom naming
+  display: "swap",
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,7 +37,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} ${prompt.variable} font-sans`}>
         <Navbar />
         <main className="main-content">{children}</main>
         <MobileDock />
