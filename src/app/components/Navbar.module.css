@@ -91,7 +91,56 @@
   text-align: left;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px){
+  .hamburger {
+    display: block;
+  }
+  .nav {
+    padding: 15px;
+  }
+
+  .dropdownMenu li {
+    padding: 1.5rem 1rem;
+    white-space: nowrap;
+    background: #fff;
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }
+
+  .navLinks {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: #fff;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+    display: none;
+    z-index: 999;
+    color: #000;
+    align-items: start;
+  }
+
+  .navLinks.active {
+    display: flex;
+  }
+
+  .dropdownMenu {
+    background: #fff;
+    position: static;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  
+  .navButton {
+    width: 21rem;
+  }
+
+
+}
+@media (max-width: 768px)  {
   .hamburger {
     display: block;
   }
