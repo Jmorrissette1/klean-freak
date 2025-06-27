@@ -46,9 +46,9 @@ export default function Navbar() {
         </li>
 
         <li className={styles.dropdown}>
-          <button onClick={() => handleDropdownToggle("kleanClub")}>
+          <Link href="/klean-club"><button onClick={() => handleDropdownToggle("kleanClub")}>
             Memeberships
-          </button>
+          </button></Link>
           <ul
             className={`${styles.dropdownMenu} ${
               openDropdown === "kleanClub" ? styles.show : ""

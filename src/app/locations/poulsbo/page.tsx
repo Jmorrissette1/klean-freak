@@ -1,13 +1,13 @@
 import Link from 'next/link';
 
 const Poulsbo = () => {
-  return <div>
+  return <div className="centeredColumn">
       <div className="locationBox">
             <div className="locationTextBox">
                 <h1 className="pageH1">Poulsbo</h1>
                 <div>
-                    <div>Phone: <Link href="tel:+3606163276">360-616-3276</Link> </div>
-                    <div>Email: <Link href="mailto:info@kleanfreakcarwash.com">info@kleanfreakcarwash.com</Link></div>
+                    <div>Phone: <Link href="tel:+3606163276"><strong>360-616-3276</strong></Link></div>
+                    <div>Email: <Link href="mailto:info@kleanfreakcarwash.com"><strong>info@kleanfreakcarwash.com</strong></Link></div>
                     <div>Address: 21205 Olhava Way NW,<br /> Poulsbo, WA 98370</div>
                 </div>
 

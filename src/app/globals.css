@@ -46,6 +46,11 @@
   font-weight: 800;
   font-size: 2rem;
 }
+
+.pageH4{
+  font-weight: 600;
+  font-size: 1.5rem;
+}
 .rinsedFormContainer iframe {
   border: none;
   padding: 0;
@@ -124,7 +129,7 @@ a {
 }
 
 .main-content {
-  padding-top: 150px;
+  padding-top: 150px;;
 }
 
 @media (prefers-color-scheme: dark) {
