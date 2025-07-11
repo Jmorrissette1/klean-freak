@@ -3,20 +3,20 @@ const Silverdale = () => {
   return  <div className="centeredColumn"><div className="locationbox">
             <div className="location-text-box">
                 <h1 className="pageH1">Silverdale</h1>
-                <div>
-                    <div>Phone:<a href="tel:+3606163276">360-616-3276 </a> </div>
-                    <div>Email: <a href="mailto:info@kleanfreakcarwash.com">info@kleanfreakcarwash.com</a></div>
-                    <div>Address:9550 Ridgetop Blvd,<br /> Silverdale, WA 98383</div>
+                <div className="textBlock">
+                    <div className="pageH4">Phone:<a href="tel:+3606163276">360-616-3276 </a> </div>
+                    <div className="pageH4">Email: <a href="mailto:info@kleanfreakcarwash.com">info@kleanfreakcarwash.com</a></div>
+                    <div className="pageH4">Address:9550 Ridgetop Blvd,<br /> Silverdale, WA 98383</div>
                 </div>
 
-                <div>
-                    <div><strong>Hours:</strong></div>
+                <div className="textBlock">
+                    <div className="pageH3"><strong>Hours:</strong></div>
                     <div>Open 24 hours!</div>
                 </div>
                    
             <div className="location-text-box">
-                <strong>Wash Features</strong>
-                <ul>
+                <strong><div className="pageH3">Wash Features</div></strong>
+                <ul className="locationFeaturesList">
                     <li>#2 Touchless In Bay Automatics.</li>
                     <li>#4 Self Serve Wash Bays.</li>
                     <li>3 Minute Wash Time</li>

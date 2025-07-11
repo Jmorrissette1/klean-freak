@@ -5,21 +5,21 @@ const Poulsbo = () => {
       <div className="locationBox">
             <div className="locationTextBox">
                 <h1 className="pageH1">Poulsbo</h1>
-                <div>
-                    <div>Phone: <Link href="tel:+3606163276"><strong>360-616-3276</strong></Link></div>
-                    <div>Email: <Link href="mailto:info@kleanfreakcarwash.com"><strong>info@kleanfreakcarwash.com</strong></Link></div>
-                    <div>Address: 21205 Olhava Way NW,<br /> Poulsbo, WA 98370</div>
+                <div className="textBlock">
+                    <div className="pageH4">Phone: <Link href="tel:+3606163276"><strong>360-616-3276</strong></Link></div>
+                    <div className="pageH4">Email: <Link href="mailto:info@kleanfreakcarwash.com"><strong>info@kleanfreakcarwash.com</strong></Link></div>
+                    <div className="pageH4">Address: 21205 Olhava Way NW,<br /> Poulsbo, WA 98370</div>
                 </div>
 
-                <div>
-                    <div><strong>Hours:</strong></div>
+                <div className="textBlock">
+                    <div className="pageH3"><strong>Hours:</strong></div>
                     <div>Open 8 AM to 8 PM!</div>
                 </div>
             </div>
         
             <div className="locationTextBox">
-                <strong>Wash Features</strong>
-                <ul> 
+                <strong><div className="pageH3">Wash Features</div></strong>
+                <ul className="locationFeaturesList"> 
                     <li>Express Exterior Tunnel </li>
                     <li>120 HP of Drying Power</li>
                     <li>3 Minute Wash Time</li>
