@@ -102,6 +102,10 @@
   max-width: 600px;
 }
 
+.locationBox {
+  width: 500px;
+  margin-bottom: 2rem;
+}
 .locationFeaturesList{
   margin-left: 2.5rem;
   margin-bottom: 1rem;
@@ -153,8 +157,9 @@ a {
   padding-top: 150px;;
 }
 
-.googleMap{
+.google-map{
   margin-bottom: 2rem;
+  width: 600px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -168,6 +173,19 @@ a {
     text-align: center;
     margin-top: 0;
   }
+    .pageH2{
+    font-weight: 800;
+    font-size: 1.5rem;
+  }
+
+  .pageH3{
+    font-weight: 700;
+    font-size: 1.25rem;
+  }
+  .pageH4{
+    font-weight: 500;
+    font-size: 1.25rem;
+  }
   .pageContent {
     width: 100%;
   }
@@ -175,6 +193,7 @@ a {
     padding-top: 100px;
   }
 
+ 
   .rinsedFormContainer {
     width: 100vw;
     height: 100%;
@@ -194,4 +213,17 @@ a {
   font-weight: 800;
   font-size: 1.5rem;
 }
+  .google-map{
+    margin-bottom: 2rem;
+    width: 100vw;
+  }
+
+  .locationTextBox{
+    margin-left: 1rem;
+  }
+  
+  .locationFeaturesList{
+    max-width: 325px;
+  }
+
 }
