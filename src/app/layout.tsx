@@ -10,7 +10,7 @@ const prompt = Prompt({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   style: ["normal", "italic"],
-  variable: "--font-prompt", // optional for custom naming
+  variable: "--font-prompt", 
   display: "swap",
 });
 

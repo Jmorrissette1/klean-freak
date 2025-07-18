@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import styles from "./Navbar.module.css";
 import Image from "next/image";
@@ -29,12 +30,12 @@ export default function Navbar() {
         ></Image>
       </Link>
 
-      <button
+      <Button
         className={styles.hamburger}
         onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
       >
         ☰
-      </button>
+      </Button>
 
       <ul
         className={`${styles.navLinks} ${mobileMenuOpen ? styles.active : ""}`}
