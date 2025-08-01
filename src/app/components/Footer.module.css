@@ -89,5 +89,6 @@
   .footerCardBtn {
     width: 100%;
     max-width: 220px;
+    padding: 10px;
   }
 }

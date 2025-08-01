@@ -20,10 +20,10 @@ export function MobileDock() {
         </button>
       </Link>
 
-      <Link href="/promotions">
+      <Link href="/coupons">
         <button>
           <Star />
-          <span>Promos</span>
+          <span>Coupons</span>
         </button>
       </Link>
     </div>

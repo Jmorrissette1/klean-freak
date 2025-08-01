@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Button } from "@/components/ui/button";
+
 import Link from "next/link";
 import styles from "./Navbar.module.css";
 import Image from "next/image";
@@ -30,12 +30,12 @@ export default function Navbar() {
         ></Image>
       </Link>
 
-      <Button
+      <button
         className={styles.hamburger}
         onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
       >
         ☰
-      </Button>
+      </button>
 
       <ul
         className={`${styles.navLinks} ${mobileMenuOpen ? styles.active : ""}`}
@@ -121,8 +121,8 @@ export default function Navbar() {
           </ul>
         </li>
         <li>
-          <Link href="/events" onClick={() => setMobileMenuOpen(false)}>
-            Events
+          <Link href="/coupons" onClick={() => setMobileMenuOpen(false)}>
+            Coupons
           </Link>
         </li>
         <Link href="/memberships" onClick={() => setMobileMenuOpen(false)}>

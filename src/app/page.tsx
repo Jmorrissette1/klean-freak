@@ -1,3 +1,4 @@
+import MonthlyWashesBar from "./components/MonthlyWashesBar";
 
 export default function Home() {
   return <div>
@@ -7,7 +8,8 @@ export default function Home() {
       <p>Welcome to Klean Freak, where your car gets the VIP treatment it deserves. Discover the power of perfectly klean every freakin’ time.</p>
       </div>
       </div>
-      <div className="centeredColumn"><p>UNLIMITED MONTHLY WASHES</p><p>A Feel Good Klean for less! Starting at $23 a month.</p><button>Join Now</button></div>
+      
+      <MonthlyWashesBar />
     </div>;
 
 }
