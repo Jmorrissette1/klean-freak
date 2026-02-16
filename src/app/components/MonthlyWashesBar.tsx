@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 const MonthlyWashesBar = () => {
     return (
         <div className="monthlyWashBar">
@@ -6,7 +8,7 @@ const MonthlyWashesBar = () => {
                 <p><em><strong>A Feel Good Klean for less! Starting at $23 a month.</strong></em></p>
             </div>
             <div>
-                <button className="monthlyWashButton"><em>Join Now</em></button>
+               <Link href="/klean-club"> <button className="monthlyWashButton"><em>Join Now</em></button></Link>
             </div>
         </div>
     );
