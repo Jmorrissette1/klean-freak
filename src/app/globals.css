@@ -315,6 +315,25 @@
   font-weight: bold;
 }
 
+.careersSection {
+  background-image: url("/CareersBackground.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 495px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.careersBox {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 @media (max-width: 768px) {
   .monthlyWashBar {
     flex-direction: column;
