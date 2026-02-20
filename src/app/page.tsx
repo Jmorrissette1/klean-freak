@@ -1,5 +1,5 @@
 import MonthlyWashesBar from "./components/MonthlyWashesBar";
-import Image from "next/image"
+import CareersSection from "./components/CareerSection";
 
 export default function Home() {
   return <div>
@@ -12,19 +12,16 @@ export default function Home() {
       </div>
       
       <MonthlyWashesBar />
-      <section className="careersSection">
-        <div className="careersBox">
-        <div>
-        <Image src="/Employee.png" alt="employee" width={500} height={488}></Image>
+      <section className="aboutUsSection">
+        <div className="aboutUsTextBox">
+          <h1>About Us</h1>
+          <p>At Klean Freak Car Wash, here is a great place for some SEO keywords to describe the car washes in detail. 
+            We could list out the details of our vacuums, touchless washes, tunnel washes, self-wash stations and anything else we have 
+            to offer to our community in our two convenient locations in Kitsap County.
+          </p>
         </div>
-        <div>
-        <p>LOOKING FOR A FUN AND REWARDING PLACE TO WORK?</p>
-        <p>Klean Freak Car Wash is looking to add a new car wash attendant to our team. Apply Today!</p>
-        </div>
-        <button>Careers</button>
-        </div>
-        
       </section>
+      <CareersSection />
     </div>;
 
 }

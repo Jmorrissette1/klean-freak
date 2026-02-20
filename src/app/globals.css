@@ -317,10 +317,10 @@
 
 .careersSection {
   background-image: url("/CareersBackground.png");
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 495px;
+  height: 600px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -328,12 +328,72 @@
 }
 
 .careersBox {
-  width: 500px;
+  width: 100%;
+  gap: 120px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
+
+.careersTextBox {
+  max-width: 360px;
+}
+
+.aboutUsSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutUsTextBox {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.employeeImg {
+  opacity: 0;
+  transition: opacity 1.5s ease-in;
+}
+
+.employeeImg.fadeIn {
+  opacity: 1;
+}
+
+.careersTextBox p:first-child {
+  font-family: "Prompt", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #cc0000;
+  line-height: 1.1;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.careersTextBox p:nth-child(2) {
+  font-family: "Prompt", sans-serif;
+  font-style: italic;
+  font-size: 1rem;
+  font-weight: Bold;
+  color: #0d1e4b;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+
+.careersTextBox button {
+  border: 2px solid #0d1e4b;
+  background: transparent;
+  padding: 10px 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
 @media (max-width: 768px) {
   .monthlyWashBar {
     flex-direction: column;
