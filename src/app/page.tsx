@@ -1,5 +1,6 @@
 import MonthlyWashesBar from "./components/MonthlyWashesBar";
 import CareersSection from "./components/CareerSection";
+import WashPackages from "./components/WashPackages";
 
 export default function Home() {
   return <div>
@@ -12,7 +13,9 @@ export default function Home() {
       </div>
       
       <MonthlyWashesBar />
-      <section className="aboutUsSection">
+     
+      <WashPackages />
+       <section className="aboutUsSection">
         <div className="aboutUsTextBox">
           <h1>About Us</h1>
           <p>At Klean Freak Car Wash, here is a great place for some SEO keywords to describe the car washes in detail. 
