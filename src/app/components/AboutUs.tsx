@@ -34,7 +34,7 @@ export default function AboutUs() {
   const pages = chunkArray(services, perPage);
   const totalPages = pages.length;
 
-  // Reset page if switching between mobile/desktop changes total pages
+
   useEffect(() => {
     setPage(0);
   }, [isMobile]);
@@ -46,11 +46,7 @@ export default function AboutUs() {
     <section className="aboutUsSection">
       <h2 className="aboutUsTitle">ABOUT US</h2>
       <p className="aboutUsDescription">
-        At Klean Freak Car Wash, here is a great place for some SEO keywords to
-        describe the car washes in detail. We could list out the details of our
-        vacuums, touchless washes, tunnel washes, self-wash stations and anything
-        else we have to offer to our community in our two convenient locations in
-        Kitsap County.
+        How dirty did you get today? Here in Kitsap County, dirt isn’t a problem, it’s proof you’re doing life right. We built our washes for the real PNW kind of dirt. Offering self-wash bays and touchless washes in Silverdale, tunnel washes, and our signature Mud Bath option in Poulsbo, and free vacuums at both convenient locations. We’re here to get your vehicle clean, so you can get back out there.
       </p>
 
       <div className="carouselContainer">
