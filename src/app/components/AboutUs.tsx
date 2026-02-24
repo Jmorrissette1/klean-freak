@@ -3,9 +3,9 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 
 const services = [
-  { img: "/Vacuums.png", title: "VACUUMS", desc: "This is where we add details about our vacuums and SEO keywords." },
-  { img: "/Touchless.png", title: "TOUCHLESS", desc: "This is where we add details about our touchless stations and SEO keywords." },
-  { img: "/SelfWash.png", title: "SELF-WASH", desc: "This is where we add details about our self-wash stations and SEO keywords." },
+  { img: "/Vacuums.png", title: "VACUUMS", desc: "With every wash at both our Silverdale and Poulsbo locations, you get complimentary vacuum access. Clear out sand, rain-soaked pine needles, pet hair, and everyday mess before you hit the road again." },
+  { img: "/Touchless.png", title: "TOUCHLESS", desc: "In Silverdale, our Touchless Wash is built for rain-soaked roads and everyday PNW grime. High-pressure water and advanced detergents cut through mud, salt, and buildup - all without brushes touching your vehicle. Delivering a safe, no-contact clean that protects your finish." },
+  { img: "/SelfWash.png", title: "SELF-WASH", desc: "Available in Silverdale, our Self-Wash bays let you wash your vehicle at your own pace. It’s a straightforward option for drivers who prefer a hands-on approach and want to focus on the areas that need attention." },
   { img: "/Tunnel.png", title: "TUNNEL", desc: "This is where we add details about our tunnel wash and SEO keywords." },
   { img: "/DetailBay.png", title: "DETAIL BAY", desc: "This is where we add details about our detail bay and SEO keywords." },
   { img: "/AirDry.png", title: "AIR DRY", desc: "This is where we add details about our air dry stations and SEO keywords." },
