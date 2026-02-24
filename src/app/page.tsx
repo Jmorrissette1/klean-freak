@@ -1,7 +1,7 @@
 import MonthlyWashesBar from "./components/MonthlyWashesBar";
 import CareersSection from "./components/CareerSection";
 import WashPackages from "./components/WashPackages";
-
+import AboutUs from "./components/AboutUs";
 export default function Home() {
   return <div>
     <div className="heroSectionD centeredColumn">
@@ -15,15 +15,7 @@ export default function Home() {
       <MonthlyWashesBar />
      
       <WashPackages />
-       <section className="aboutUsSection">
-        <div className="aboutUsTextBox">
-          <h1>About Us</h1>
-          <p>At Klean Freak Car Wash, here is a great place for some SEO keywords to describe the car washes in detail. 
-            We could list out the details of our vacuums, touchless washes, tunnel washes, self-wash stations and anything else we have 
-            to offer to our community in our two convenient locations in Kitsap County.
-          </p>
-        </div>
-      </section>
+      <AboutUs />
       <CareersSection />
     </div>;
 
