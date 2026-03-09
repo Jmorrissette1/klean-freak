@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function CareersSection() {
   const [visible, setVisible] = useState(false);
@@ -29,7 +30,7 @@ export default function CareersSection() {
         <div className="careersTextBox">
           <p>LOOKING FOR A FUN AND REWARDING PLACE TO WORK?</p>
           <p>Klean Freak Car Wash is looking to add a new car wash attendant to our team. Apply Today!</p>
-          <button>Careers</button>
+          <Link href="https://recruiting2.ultipro.com/HAS1005HLW/JobBoard/8491fa92-c48c-4541-8cb7-241a824bf93f/?q=&o=postedDateDesc"><button>Careers</button></Link>
         </div>
       </div>
     </section>

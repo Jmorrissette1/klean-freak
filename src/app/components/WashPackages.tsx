@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
+import Link from "next/link";
 
 export default function WashPackages() {
   const [visible, setVisible] = useState(false);
@@ -34,7 +35,7 @@ export default function WashPackages() {
             <p>$16/SINGLE</p>
             <p>$42/UNLIMITED</p>
           </div>
-          <button>LEARN MORE</button>
+          <Link href="/packages"><button>LEARN MORE</button></Link>
         </div>
       </div>
 
@@ -46,7 +47,7 @@ export default function WashPackages() {
             <p>$13/SINGLE</p>
             <p>$32/UNLIMITED</p>
           </div>
-          <button>LEARN MORE</button>
+          <Link href="/packages"><button>LEARN MORE</button></Link>
         </div>
       </div>
 
@@ -58,7 +59,7 @@ export default function WashPackages() {
             <p>$10/SINGLE</p>
             <p>$23/UNLIMITED</p>
           </div>
-          <button>LEARN MORE</button>
+          <Link href="/packages"> <button>LEARN MORE</button></Link>
         </div>
       </div>
     </section>

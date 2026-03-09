@@ -103,6 +103,7 @@
 
 .heroTextBox {
   max-width: 700px;
+  margin-right: 200px;
 }
 
 .heroH2 {
@@ -299,8 +300,19 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   background-color: var(--klean-freak-yellow);
   padding: 1rem;
+  width: 100vw;
+  color: #0d1e4b;
+}
+
+.monthlyWashBar h3 {
+  font-size: 44px;
+}
+
+.monthlyWashBar P {
+  font-size: 22px;
 }
 
 .monthlyWashButton {
@@ -636,6 +648,117 @@
   color: #0d1e4b;
 }
 
+/* location page */
+
+.locationHero {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: right center;
+  background-repeat: no-repeat;
+  height: 300px;
+  display: flex;
+  padding: 40px 80px;
+  font-family: var(--font-prompt), sans-serif;
+}
+
+.locationHeroText {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-family: var(--font-prompt), sans-serif;
+}
+
+.locationHeroText h1 {
+  font-family: var(--font-prompt), sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #cc0000;
+  text-transform: uppercase;
+}
+
+.locationServices {
+  font-family: var(--font-prompt), sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #0d1e4b;
+  margin-bottom: 10px;
+}
+
+.locationHeroText p {
+  font-family: var(--font-prompt), sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  color: #0d1e4b;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.expectSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 80px;
+}
+
+.expectTitle {
+  font-family: var(--font-prompt), sans-serif;
+  font-size: 2.2rem;
+  font-weight: bold;
+  font-style: italic;
+  color: #0d1e4b;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.expectGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  max-width: 1000px;
+}
+
+.expectCard {
+  width: 444px;
+  height: 473px;
+  display: flex;
+  flex-direction: column;
+}
+
+.expectImg {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.expectCardTitle {
+  font-family: var(--font-prompt), sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-style: italic;
+  color: #cc0000;
+  text-transform: uppercase;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.expectCard p {
+  font-family: var(--font-prompt), sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #0d1e4b;
+  line-height: 1.5;
+  margin-bottom: 4px;
+}
+
+.expectHighlight {
+  color: #cc0000 !important;
+  margin-top: 10px;
+}
+
 @media (max-width: 768px) {
   .monthlyWashBar {
     flex-direction: column;
@@ -800,5 +923,22 @@
 
   .aboutUsTitle {
     font-size: 2rem;
+  }
+
+  .expectCard {
+    width: 100%;
+    height: auto;
+  }
+  .expectSection {
+    padding: 40px 20px;
+  }
+
+  .expectGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .expectTitle {
+    font-size: 1.6rem;
+    text-align: center;
   }
 }
