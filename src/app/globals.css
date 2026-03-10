@@ -653,7 +653,7 @@
 .locationHero {
   width: 100%;
   text-align: center;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   background-size: cover;
   background-position: right center;
@@ -666,9 +666,11 @@
 
 .locationHeroText {
   display: flex;
+  align-items: flex-start;
   flex-direction: column;
   text-align: left;
   font-family: var(--font-prompt), sans-serif;
+  margin-left: 30%;
 }
 
 .locationHeroText h1 {
@@ -700,6 +702,7 @@
   flex-direction: column;
   align-items: center;
   padding: 60px 80px;
+  width: 100%;
 }
 
 .expectTitle {
